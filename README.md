@@ -6,7 +6,8 @@ This executable replaces your SonicLauncher.exe with a stub to launch the extrac
 ## Prerequisites
 - Sonic 4 Episode 1 (PC)
 - [7-Zip](https://www.7-zip.org)
-- A Java runtime of some sorts. Make sure that it has been added to PATH [AdoptOpenJDK](https://adoptopenjdk.net/) is recommended.
+- A Java runtime of some sorts. Make sure that it has been added to PATH.
+> [AdoptOpenJDK](https://adoptopenjdk.net/) is recommended.
 
 ## Instructions
 
