@@ -1,7 +1,10 @@
 # Sonic4LaunchStub
 Stub launcher for Sonic 4 on PC
 
-This executable replaces your SonicLauncher.exe with a stub to launch the extracted jar file for the launchers of Sonic the Hedgehog 4 - Episode 1.
+This executable replaces your `SonicLauncher.exe` with a stub to launch the extracted `jar` file for the Sonic the Hedgehog 4 - Episode 1 launcher.
+
+## Info
+The Sonic 4 EP1 Launcher is a Java app wrapped into an `exe` with `Launch4j`. Unfortunately, it targets Java 6 and nothing else. Thus, we are unable to launch and configure the settings and controls. This stub aims to replace the `Launch4j` wrapper so as to restore Steam status intergration and allow usage of a modern version of java.
 
 ## Prerequisites
 - Sonic 4 Episode 1 (PC)
@@ -27,7 +30,7 @@ This executable replaces your SonicLauncher.exe with a stub to launch the extrac
 3. Drag the stub launcher into the folder.
 > Ensure the stub launcher is still named `SonicLauncher.exe`
 
-You're done! now go and play the game that you paid for (hopefully).
+You're done! now go and play the game that you (hopefully) paid for.
 
 ### SmartScreen blocked this program from running
 Right-click the stub launcher and click on properties. At the bottom of the window there should be a checkbox to unblock it. Hit save and OK.
@@ -36,7 +39,11 @@ Right-click the stub launcher and click on properties. At the bottom of the wind
 ## Self-building
 > If you're self-building this stub you got trust issues, but I'll still document this for you. <3
 
-`Placeholder`
+1. Make sure you have MinGW installed.
+> I used MinGW-W64-builds-4.3.5
+2. Add the MinGW `bin` folder to PATH
+3. Clone the repository, navigate to it and execute `gcc main.c -o main`
+4. Follow install instructions
 
 ## Licensing
 Check in LICENSE.md
