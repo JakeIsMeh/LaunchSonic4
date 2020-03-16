@@ -1,4 +1,4 @@
-# LaunchSonic4
+# Sonic4LaunchStub
 Stub launcher for Sonic 4 on PC
 
 This executable replaces your SonicLauncher.exe with a stub to launch the extracted jar file for the launchers of Sonic the Hedgehog 4 - Episode 1.
