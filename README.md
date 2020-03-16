@@ -37,7 +37,7 @@ Right-click the stub launcher and click on properties. At the bottom of the wind
 
 
 ## Self-building
-> If you're self-building this stub you got trust issues, but I'll still document this for you. <3
+> If you're self-building this stub you have trust issues, but I'll still document this for you. <3
 
 1. Make sure you have MinGW installed.
 > I used MinGW-W64-builds-4.3.5
