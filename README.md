@@ -45,5 +45,9 @@ Right-click the stub launcher and click on properties. At the bottom of the wind
 3. Clone the repository, navigate to it and execute `gcc main.c -o main`
 4. Follow install instructions
 
+## "Issues"
+- Stub launcher does not run silently, thus creating a console window
+- This isn't a native rewrite and/or replacement for the launcher
+
 ## Licensing
 Check in LICENSE.md
