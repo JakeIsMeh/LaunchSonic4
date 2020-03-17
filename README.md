@@ -33,7 +33,7 @@ The Sonic 4 EP1 Launcher is a Java app wrapped into an `exe` with `Launch4j`. Un
 You're done! now go and play the game that you (hopefully) paid for.
 
 ### SmartScreen blocked this program from running
-Right-click the stub launcher and click on properties. At the bottom of the window there should be a checkbox to unblock it. Hit save and OK.
+Right-click the stub launcher and click on properties. At the bottom of the window there should be a checkbox to unblock it. Hit Apply and OK.
 
 
 ## Self-building
