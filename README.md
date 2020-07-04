@@ -10,7 +10,7 @@ The Sonic 4 EP1 Launcher is a Java app wrapped into an `exe` with `Launch4j`. Un
 - Sonic 4 Episode 1 (PC)
 - [7-Zip](https://www.7-zip.org)
 - A Java runtime of some sorts. Make sure that it has been added to PATH.
-> [AdoptOpenJDK](https://adoptopenjdk.net/) is recommended.
+    - [AdoptOpenJDK](https://adoptopenjdk.net/) is recommended.
 - Stub launcher downloaded from the [releases](https://github.com/JakeIsMeh/Sonic4LaunchStub/releases) page
 
 ## Instructions
@@ -28,7 +28,7 @@ The Sonic 4 EP1 Launcher is a Java app wrapped into an `exe` with `Launch4j`. Un
 1. Navigate to the install folder: `[Steam Library Root]\steamapps\common\Sonic the Hedgehog 4 EP 1`
 2. Rename `SonicLauncher.exe` to `SonicLauncher.exe.bak`
 3. Drag the stub launcher into the folder.
-> Ensure the stub launcher is still named `SonicLauncher.exe`
+    - Ensure the stub launcher is still named `SonicLauncher.exe`
 
 You're done! now go and play the game that you (hopefully) paid for.
 
@@ -37,10 +37,10 @@ Right-click the stub launcher and click on properties. At the bottom of the wind
 
 
 ## Self-building
-> If you're self-building this stub you have trust issues, but I'll still document this for you. <3
+`If you're self-building this stub you have trust issues, but I'll still document this for you. <3`
 
 1. Make sure you have MinGW installed.
-> I used MinGW-W64-builds-4.3.5
+    - I used MinGW-W64-builds-4.3.5
 2. Add the MinGW `bin` folder to PATH
 3. Clone the repository, navigate to it and execute `gcc main.c -o main`
 4. Follow install instructions
