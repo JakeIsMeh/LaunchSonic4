@@ -4,7 +4,7 @@ Stub launcher for Sonic 4 on PC
 This executable replaces your `SonicLauncher.exe` with a stub to launch the extracted `jar` file for the Sonic the Hedgehog 4 - Episode 1 launcher.
 
 ## Background Info
-The Sonic 4 EP1 Launcher is a Java app wrapped into an `exe` with `Launch4j`. Unfortunately, it targets Java 6 and nothing else. Thus, we are unable to launch and configure the settings and controls. This stub aims to replace the `Launch4j` wrapper so as to restore Steam status intergration and allow usage of a modern version of Java.
+The Sonic 4 EP1 Launcher is a Java app wrapped into an `exe` with `Launch4j`. Unfortunately, it targets Java 6 and nothing else. Thus, we are unable to launch and configure the settings and controls. This stub aims to replace the `Launch4j` wrapper so as to ~~restore Steam status intergration and~~ allow usage of a modern version of Java.
 
 ## Prerequisites
 - Sonic 4 Episode 1 (PC)
