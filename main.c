@@ -1,6 +1,6 @@
-#include <process.h>
+#include <windows.h>
 
 int main() {
-    system("java -jar SonicLauncher.jar");
+    WinExec("java -jar SonicLauncher.jar", SW_HIDE);
     return 1;
 }
