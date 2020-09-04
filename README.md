@@ -40,7 +40,7 @@ Right-click the stub launcher and click on properties. At the bottom of the wind
 `If you're self-building this stub you have trust issues, but I'll still document this for you. <3`
 
 1. Make sure you have MinGW installed.
-    - I used MinGW-W64-builds-4.3.5
+    - I used `MinGW-W64-builds-4.3.5`, specifically `gcc-x86_64-8.1.0-posix-seh`.
 2. Add the MinGW `bin` folder to PATH
 3. Clone the repository, navigate to it and execute `gcc main.c -Wl,-subsystem,windows -o main`
 4. Follow install instructions
